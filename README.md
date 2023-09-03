@@ -24,4 +24,4 @@ The top five most important features are:
 What is an "important" feature?
 
 
-* An "important' feature is one that was used extensively/repeatedly by the model when during the training process. Feature Importance does not indicate directionality.
+* An "important" feature is one that was used extensively/repeatedly by the model during the training process.  Feature Importance does not indicate directionality.
