@@ -5,9 +5,9 @@
 
 
 The 3 largest coefficients are:
-* "Outlet_Type_Supermarket Type3" - If the Outlet Type is of category "Supermarket Type3", the predicted item sales for an outlet with this type increases by 2248.745.
-* "Item_MRP" - Individual item sale price increased outlet sales by 954.767
-* "Outlet_Type_Grocery Store" - If the Outlet Type is of category "Grocery Store", the predicted item sales for an outlet with this type decreased by 1644.829.
+1.  "Outlet_Type_Supermarket Type3" - If the Outlet Type is of category "Supermarket Type3", the predicted item sales for an outlet with this type increases by 2248.745.
+2.  "Item_MRP" - Individual item sale price increased outlet sales by 954.767
+3.  "Outlet_Type_Grocery Store" - If the Outlet Type is of category "Grocery Store", the predicted item sales for an outlet with this type decreased by 1644.829.
 
 ![top5_feature_importance](https://github.com/RJKool/Project-1-Revisited/assets/123280849/59a1e584-8dad-4e33-b704-5361eee4bf17)
 
