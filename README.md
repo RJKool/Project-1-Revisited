@@ -28,8 +28,9 @@ What is an "important" feature?
 * An "important" feature is one that was used extensively/repeatedly by the model during the training process.  Feature Importance does not indicate directionality.
 
 ---
-
-![rf_reg_SHAP_summary_barplot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/rf_reg_SHAP_summary_barplot.png)
+# https://github.com/RJKool/Project-1-Revisited/blob/main/Images/rf_reg_SHAP_summary_barplot.png
+# ![rf_reg_SHAP_summary_barplot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/rf_reg_SHAP_summary_barplot.png)
+![rf_reg_SHAP_summary_barplot](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/rf_reg_SHAP_summary_barplot.png)
 
 
 * Four of the Top 5 Most Important Features (Item_MRP, Outlet_Type_Grocery Store, Item_Visibility, and Outlet_Type_Supermarket Type3) are shared with the top five items in our Shap summary plot of features that contributed to the most to the model decision process.
