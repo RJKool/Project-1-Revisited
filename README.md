@@ -28,8 +28,7 @@ What is an "important" feature?
 * An "important" feature is one that was used extensively/repeatedly by the model during the training process.  Feature Importance does not indicate directionality.
 
 ---
-# https://github.com/RJKool/Project-1-Revisited/blob/main/Images/rf_reg_SHAP_summary_barplot.png
-# ![rf_reg_SHAP_summary_barplot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/rf_reg_SHAP_summary_barplot.png)
+
 ![rf_reg_SHAP_summary_barplot](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/rf_reg_SHAP_summary_barplot.png)
 
 
@@ -37,7 +36,7 @@ What is an "important" feature?
 
 ---
 
-![rf_reg_SHAP_summary_dotplot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/rf_reg_SHAP_summary_dotplot.png)
+![rf_reg_SHAP_summary_dotplot](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/rf_reg_SHAP_summary_dotplot.png)
 
 
 Explanation of the top 3 items in the Dot-plot:
