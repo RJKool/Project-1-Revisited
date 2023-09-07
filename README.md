@@ -55,7 +55,7 @@ Explanation of the top 3 items in the Dot-plot:
 
 In this example, I choose feature "Outlet_Type_Grocery Store" as my point of focus.
 
-![GroupA_LIME](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/GroceryStore_GroupA_LIME.png)
+![GroupA_LIME](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/GroceryStore_GroupA_LIME.png?raw=true)
 
 **LIME Explanation:**  In our LIME explanation, we see that Outlet_Type_Grocery_Store greatly influenced price prediction the most with a value of -2221.10.  Item_MRP is the second highest influence on predicted price by with a positive influence of value 1637.71. 
 
