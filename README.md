@@ -43,3 +43,45 @@ Explanation of the top 3 items in the Dot-plot:
 1. Item_MRP:  The higher the item manufacture retail price of the individual item, the higher the positivly predicted price of the item for the retail outlet.
 2. Outlet_Type_Grocery Store:  Outlet types of classification "Grocery Store" will be predicted more negatively towards total item retail price.
 3. Outlet_Type_Supermarket Type3:  Outlet types of classification "Supermarket Type3" will predicted with more positively (higher) items prices for the retail outlet.
+
+---
+
+## Example A
+1. High Item MRP
+2. Outlet Type: Grocery Store
+3. High Item Visibility
+
+**Selection Explanation:**  The SHAP Summary Plot shows there is a opposing outcome in total item sales for both Outlet Type class Grocery Store and Outlet Type class Supermarket Type 3.  I would like to find filtered examples of these two opposing affects on total sales.
+
+In this example, I choose feature "Outlet_Type_Grocery Store" as my point of focus.
+
+![GroupA_LIME](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/GroceryStore_GroupA_LIME.png)
+
+**LIME Explanation:**  In our LIME explanation, we see that Outlet_Type_Grocery_Store greatly influenced price prediction the most with a value of -2221.10.  Item_MRP is the second highest influence on predicted price by with a positive influence of value 1637.71. 
+
+**Total Predicted Sales:**  663.59
+
+![GroupA_Individual_ForcePlot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/GroceryStore_GroupA_I_Force.png)
+
+The above Individual Force Plot shows the two most heavily influenced features are "Outlet_Type_Grocery Store" (which pushes the price prediction lower) and "Item_MRP" (which pushes the price prediction higher).
+
+---
+
+## Example B
+1. High Item MRP
+2. Outlet Type: Supermarket Type3
+3. High Item Visibility
+
+**Selection Explanation:**  The SHAP Summary Plot shows there is a opposing outcome in total item sales for both Outlet Type class Grocery Store and Outlet Type class Supermarket Type 3.  I would like to find filtered examples of these two opposing affects on total sales.
+
+In this example, I choose feature "Outlet_Type_Supermarket Type3" as my point of focus.
+
+![GROUPB_LIME](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/Supermarket Type3_GroupB_LIME.png)
+
+**LIME Explanation:** In our LIME explanation, we see that Outlet_Type_Supermarket 3 greatly influenced price prediction the most with a value of 2224.35. Item_MRP is the second highest influence on predicted price by with a positive influence of value 1679.02.
+
+**Total Predicted Sales:** 4073.34
+
+![GROUPB_Individual_ForcePlot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/Supermarket Type3_GroupB_I_Force.png)
+
+The above Individual Force Plot shows the two most heavily influenced features are "Outlet_Type_Supermarket Type3" (which pushes the price prediction higher) and "Item_MRP" (which pushes the price prediction higher).
