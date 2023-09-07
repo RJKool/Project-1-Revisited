@@ -55,13 +55,13 @@ Explanation of the top 3 items in the Dot-plot:
 
 In this example, I choose feature "Outlet_Type_Grocery Store" as my point of focus.
 
-![GroupA_LIME](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/GroceryStore_GroupA_LIME.png)
+![GroupA_LIME](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/GroceryStore_GroupA_LIME.png)
 
 **LIME Explanation:**  In our LIME explanation, we see that Outlet_Type_Grocery_Store greatly influenced price prediction the most with a value of -2221.10.  Item_MRP is the second highest influence on predicted price by with a positive influence of value 1637.71. 
 
 **Total Predicted Sales:**  663.59
 
-![GroupA_Individual_ForcePlot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/GroceryStore_GroupA_I_Force.png)
+![GroupA_Individual_ForcePlot](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/GroceryStore_GroupA_I_Force.png)
 
 The above Individual Force Plot shows the two most heavily influenced features are "Outlet_Type_Grocery Store" (which pushes the price prediction lower) and "Item_MRP" (which pushes the price prediction higher).
 
@@ -76,12 +76,12 @@ The above Individual Force Plot shows the two most heavily influenced features a
 
 In this example, I choose feature "Outlet_Type_Supermarket Type3" as my point of focus.
 
-![GROUPB_LIME](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/Supermarket Type3_GroupB_LIME.png)
+![GROUPB_LIME](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/Supermarket%20Type3_GroupB_LIME.png)
 
 **LIME Explanation:** In our LIME explanation, we see that Outlet_Type_Supermarket 3 greatly influenced price prediction the most with a value of 2224.35. Item_MRP is the second highest influence on predicted price by with a positive influence of value 1679.02.
 
 **Total Predicted Sales:** 4073.34
 
-![GROUPB_Individual_ForcePlot](/Users/Rashad/Documents/GitHub/Project-1-Revisited/Images/Supermarket Type3_GroupB_I_Force.png)
+![GROUPB_Individual_ForcePlot](https://github.com/RJKool/Project-1-Revisited/blob/main/Images/Supermarket%20Type3_GroupB_I_Force.png)
 
 The above Individual Force Plot shows the two most heavily influenced features are "Outlet_Type_Supermarket Type3" (which pushes the price prediction higher) and "Item_MRP" (which pushes the price prediction higher).
